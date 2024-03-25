@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Open+Sans:wght@300&family=Work+Sans:wght@300&display=swap");
+
+.home {
+  margin-left: 10%;
+  height: 50%;
+  width: 30%;
+  margin-top: 10%;
+  padding: 2%;
+}
+
+.home h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35.3px;
+}
+
+.blue {
+  color: #1e91f6;
+}
+
+.levi {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+}
+
+.levi img {
+  height: 4rem;
+}
+
+div p {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.eren {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.b1:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.b2:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.b1 {
+  transition: transform 0.3s ease;
+  box-shadow: 0px 18px 28px -9px rgba(229, 13, 35, 0.61);
+  color: #ffffff;
+  border-radius: 4px;
+  width: 230px;
+  height: 53px;
+  align-items: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  background-image: linear-gradient(to bottom right, #e6192e, #eb5262);
+}
+
+.b2 {
+  transition: transform 0.3s ease;
+  color: #747474;
+  border-radius: 4px;
+  width: 230px;
+  height: 53px;
+  align-items: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.images img {
+  position: absolute;
+  z-index: 2;
+  margin-top: 10%;
+  height: 40rem;
+}
+ .images {
+  margin-left: 0%;
+  padding: 0;
+}
+
+.city {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+}
+
+nav {
+  border-left: 2px black;
+  border-right: 2px black;
+}

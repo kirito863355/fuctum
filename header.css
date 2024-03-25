@@ -1,0 +1,78 @@
+.back1 {
+  background-color: #fafafa;
+}
+
+nav {
+  align-items: center;
+  height: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+header {
+  height: 7rem;
+  gap: 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  align-items: center;
+  gap: 25px;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 100px;
+  z-index: 5;
+}
+
+.senpai {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header img {
+  height: 4rem;
+}
+
+.senpai h4 {
+  color: #c9c9c9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.gh {
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.line {
+  color: transparent;
+  border-left: 2px solid grey;
+}
+
+nav a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.gh h3 {
+  color: red;
+  text-decoration: dotted;
+}
+
+.senpai h2 {
+  color: #0b75fc;
+}
+
+.chan {
+  color: #e50d23;
+  border-bottom: 2px dotted #e50d23;
+}

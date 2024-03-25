@@ -1,0 +1,30 @@
+.about {
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    padding: 0 30%;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+   margin-top: 5%;
+  }
+
+  .red {
+    font-size: 25px;
+    color: rgba(229, 13, 35, 1);
+
+  }
+
+  .vf {
+    font-size: 14px ;
+    color: rgba(112, 112, 112, 1);
+  }
+
+  .about1 {
+    justify-content: center;
+    display: flex;
+    font-family: Arial;
+    font-size: 30px;
+   margin-top: 3%;
+  }

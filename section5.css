@@ -1,0 +1,153 @@
+.section5 {
+  margin-top: 13%;
+}
+
+.section5 h1 {
+  position: absolute;
+  z-index: 4;
+}
+.bf img {
+  height: 785px;
+}
+
+.bf2 img {
+  margin-top: -5%;
+  margin-left: 18%;
+  z-index: 2;
+  position: absolute;
+  height: 55rem;
+}
+
+.kh {
+  margin-top: 5%;
+  margin-left: 45%;
+  z-index: 3;
+  position: absolute;
+}
+
+.k1 {
+  font-size: 40px;
+}
+
+.kb3 {
+  z-index: 3;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 13%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.kb4 {
+  z-index: 3;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 25%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.bh1 {
+  transition: transform 0.3s ease;
+  box-shadow: 0px 10px 26px -9px rgba(30, 145, 246, 1);
+  background-image: linear-gradient(
+    to right,
+    rgba(30, 145, 246, 1),
+    rgba(103, 184, 255, 1)
+  );
+  border: none;
+  border-radius: 10px;
+  padding: 10px 45px;
+  color: aliceblue;
+  font-size: 30px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.bh2 {
+  transition: transform 0.3s ease;
+  box-shadow: 0px 12px 28px -10px rgba(168, 74, 199, 1);
+  background: linear-gradient(
+    333.69deg,
+    #e15e79 10.56%,
+    #a24bcb 58.65%,
+    #0e86f0 100%
+  );
+  border: none;
+  border-radius: 8px;
+  padding: 10px 45px;
+  color: aliceblue;
+  font-size: 30px;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bh3 {
+  transition: transform 0.3s ease;
+  background: linear-gradient(
+    333.69deg,
+    #525acb -2.58%,
+    #c837ab 32.41%,
+    #ff8947 71.59%,
+    #ffda54 100%
+  );
+  box-shadow: 0px 10px 29px -7px rgba(245, 122, 90, 1);
+  border: none;
+  border-radius: 8px;
+  padding: 10px 45px;
+  color: aliceblue;
+  font-size: 30px;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bh3:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.bh2:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.bh1:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.bh1m {
+  height: 1.5rem;
+}
+
+.bh2m {
+  height: 1.5rem;
+}
+
+.bh3m {
+  height: 1.5rem;
+}
+
+.kh2 {
+  margin-top: 20%;
+  margin-left: 45%;
+  z-index: 3;
+  position: absolute;
+}
+
+.k2 {
+  font-size: 30px;
+}
+
+.orange {
+  color: #fb834e;
+}
+
