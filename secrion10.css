@@ -1,0 +1,34 @@
+.t2 {
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .t2p {
+    margin-top: 2%;
+    display: flex;
+    z-index: 2;
+    position: relative;
+    justify-content: center;
+  }
+
+  .t60 {
+    margin-top: 5%;
+    gap: 2%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .v1{
+    border-radius: 10px;
+    width:396px ;
+    height: auto;
+  }
+
+  .ts {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 18px;
+  }
