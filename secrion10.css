@@ -32,3 +32,28 @@
     color: black;
     font-size: 18px;
   }
+
+  .navi {
+    margin-top: 2%;
+    text-align: center;
+  }
+
+  .imm2 {
+    position: absolute;
+    z-index: 1;
+    height: 1071px;
+  }
+
+  .t3 {
+    color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .t3p {
+    margin-top: 6%;
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    margin-left: 41%;
+  }
