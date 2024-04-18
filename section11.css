@@ -1,0 +1,6 @@
+.line-back{
+    margin-top: 2%;
+    position: absolute;
+    z-index: 1;
+    height: 52rem;
+}
