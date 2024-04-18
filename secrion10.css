@@ -1,59 +1,159 @@
 .t2 {
-    color: black;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  color: black;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .t2p {
-    margin-top: 2%;
-    display: flex;
-    z-index: 2;
-    position: relative;
-    justify-content: center;
-  }
+.t2p {
+  margin-top: 2%;
+  display: flex;
+  z-index: 2;
+  position: relative;
+  justify-content: center;
+}
 
-  .t60 {
-    margin-top: 5%;
-    gap: 2%;
-    position: relative;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-  }
+.t60 {
+  margin-top: 5%;
+  gap: 2%;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
 
-  .v1{
-    border-radius: 10px;
-    width:396px ;
-    height: auto;
-  }
+.v1 {
+  border-radius: 10px;
+  width: 396px;
+  height: auto;
+}
 
-  .ts {
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 18px;
-  }
+.ts {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 18px;
+}
 
-  .navi {
-    margin-top: 2%;
-    text-align: center;
-  }
+.navi {
+  margin-top: 2%;
+  text-align: center;
+}
 
-  .imm2 {
-    position: absolute;
-    z-index: 1;
-    height: 1071px;
-  }
+.imm2 {
+  position: absolute;
+  z-index: 1;
+  height: 1071px;
+}
 
-  .t3 {
-    color: black;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
 
-  .t3p {
-    margin-top: 6%;
-    z-index: 3;
-    position: absolute;
-    text-align: center;
-    margin-left: 41%;
-  }
+
+.t3p {
+  color: black;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 6%;
+  z-index: 3;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.rate {
+  position: relative;
+  z-index: 2;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 40px;  
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(124, 124, 124, 1);
+}
+
+.image-container {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 0 auto; 
+}
+
+.sr {
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+  margin-top: 1%;
+  text-align: center;
+  font-size: 11px;  
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(124, 124, 124, 1);
+}
+
+.container-comment {
+  position: relative;
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-comment1 {
+  position: relative;
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-comment2 {
+  position: relative;
+  z-index: 2;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px 30px 30px 30px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont-rate {
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+}
+
+.google-logo{
+  margin-top: -4%;
+  margin-left: 35%;
+  height: 179px;
+  position: absolute;
+  z-index: 1;
+}
+
+.cont-text {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+
+.profile-logo {
+  margin-top: -25%;
+  margin-left:30% ;
+  justify-content: center;
+  position: absolute;
+  z-index: 3;
+}
+
+.comments{
+  margin-top: 7%;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 2%;
+  justify-content: center;
+}
