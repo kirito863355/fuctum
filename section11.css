@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .line-back {
   margin-top: 2%;
   position: absolute;
@@ -124,6 +126,11 @@
   background-image: linear-gradient(to bottom right, #e6192e, #eb5262);
 }
 
+.send:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
 .whitee-bg {
   position: absolute;
   z-index: 3;
@@ -231,9 +238,16 @@
   color: gray;
 }
 
+
+
+/* header */
+
+
+
 .fot {
-  max-width: 70%;
-  margin: auto;
+  position: relative;
+  max-width: 75%;
+margin: auto;
 }
 
 ul {
@@ -288,15 +302,28 @@ footer {
   margin-left: -13%;
 }
 .soc {
-  align-items: center;
   padding: 0 40px;
   width: 359px;
   height: 150px;
   border-left: 2px solid #ccc;
 }
 
+.soc1 {
+  align-items: center;
+  padding: 0 40px;
+  width: 500px;
+  height: 190px;
+  border-left: 1px solid #ccc;
+}
+
 .last {
+  width: 290px;
+  margin-left: 15%;
   font-size: 12px;
+}
+
+.text-r{
+  margin-left: 20%;
 }
 
 .flagg {
@@ -325,4 +352,76 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     color: #7c7c7c;
     font-size: 12px;
+}
+
+.all-btn {
+  margin-left: 15%  ;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn1 {
+  transition: transform 0.3s ease;
+  border: none;
+  align-items: center;
+  padding: 17px;
+  border-radius: 50%;
+}
+
+.btn2 {
+  transition: transform 0.3s ease;
+  border: none;
+  align-items: center;
+  padding: 17px;
+  border-radius: 50%;
+}
+
+.btn3 {
+  transition: transform 0.3s ease;
+  border: none;
+  align-items: center;
+  padding: 17px;
+  border-radius: 50%;
+}
+
+.btn3:hover {
+
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.btn2:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.btn1:hover {
+  transform: scale(1.1);
+  z-index: 4;
+}
+
+.btn2 img {
+  margin-top: -5px;
+}
+
+.btn4 {
+  
+  margin-top: 5%;
+  letter-spacing: 3px;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 18px 28px -9px rgba(229, 13, 35, 0.61);
+  color: #ffffff;
+  border-radius: 5px;
+ padding: 20px 50px;
+  align-items: center;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  background-image: linear-gradient(to bottom right, #e6192e, #eb5262);
+}
+
+.btn4:hover {
+  transform: scale(1.1);
+  z-index: 4;
 }

@@ -92,12 +92,3 @@ main {
   padding: 0;
 }
 
-.city {
-  font-family: Arial, Helvetica, sans-serif;
-  color: blue;
-}
-
-nav {
-  border-left: 2px black;
-  border-right: 2px black;
-}
